@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blanchedalmond;
+}
+img{
+
+  height : 200px;
+  width:300px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-links{
+
+  background-color: blueviolet;
+  font-size: large;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  padding-left:200px;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 50px;
+  padding-top: 30px;
+  margin-top: 0px;
+  font-size: x-large;
+  width:100%;
+
+}
+a{
+  color: antiquewhite;
+  text-decoration: none;
+}
+.whole{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.item{
+  background-color: aqua;
+  margin: 10px;
+  padding-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  width : 600px;
+}
+img{
+  margin:10px;
+  border: 10px;
+}
+h3{
+  font-size: large;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+p{
+  font-size: medium;
+  width: 300px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 20px;
+  color: gray;
+}
+@media screen and (max-width: 1024px) {
+  .nav-links {
+      display: none !important;
+  }
 }
